@@ -1,0 +1,18 @@
+[package]
+name = "rust-oems"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fred = "4.3.2"
+rand = "0.8.3"
+tokio = "1.17.0"
+futures = "0.3.21"
+pretty_env_logger = "0.4.0"
+
+# [dependencies.redis]
+# version = "0.21.5"
+[dependencies.serde_json]
+version = "*"
